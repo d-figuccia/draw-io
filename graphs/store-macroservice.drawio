@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T10:03:32.350Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XmeQSkyXfViU_GN4ColB" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T10:07:25.422Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ePWO1FIpj1KUL92Zz691" version="24.3.1" type="github">
   <diagram name="Page-1" id="m_Y108sSP7Lhg1sr7l5O">
     <mxGraphModel dx="1365" dy="-229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
         <mxCell id="gKmI6yvuFESalika0xIr-4" value="Store details component" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1410" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gKmI6yvuFESalika0xIr-5" value="allStore component" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="gKmI6yvuFESalika0xIr-5" value="allStores component" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1570" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gKmI6yvuFESalika0xIr-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gKmI6yvuFESalika0xIr-2" target="lXu4Tp6JSbNR6ExN2YvM-19">
