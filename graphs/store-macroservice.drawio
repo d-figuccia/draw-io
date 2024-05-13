@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T08:05:17.750Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9aBhOD0pe7rPuswGAeA8" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T10:56:15.273Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="k1rfAaEXXeZDwqZTWkgh" version="24.4.0" type="github">
   <diagram name="Page-1" id="m_Y108sSP7Lhg1sr7l5O">
     <mxGraphModel dx="1434" dy="-349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,10 +21,10 @@
         <mxCell id="lXu4Tp6JSbNR6ExN2YvM-10" value="&lt;span style=&quot;font-size: 18px; font-weight: 700; text-align: left;&quot;&gt;Store (MVP1)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px; font-weight: 700; text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;API&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: center; text-wrap: nowrap;&quot;&gt;getNearestStores&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; text-wrap: nowrap;&quot;&gt;getStore&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3.&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;getAllStoresSortedByTown&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;4.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;getStoresByNames&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;5. createStore&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;6. updateStore&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;7. deleteStore&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;...&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-align: center; text-wrap: nowrap;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;&lt;b&gt;Consumer&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;- storeMessageKafka&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-wrap: nowrap; text-align: center;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 16px; text-wrap: nowrap;&quot;&gt;impexGenLoadStore&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 16px; text-wrap: nowrap;&quot;&gt;&amp;nbsp; (call yCatalog API getStore)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=dashed;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="240" y="2037.5" width="400" height="322.5" as="geometry" />
         </mxCell>
-        <mxCell id="lXu4Tp6JSbNR6ExN2YvM-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.998;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lXu4Tp6JSbNR6ExN2YvM-10" target="vU2HOrqAtmkLahMUNuxy-2" edge="1">
+        <mxCell id="lXu4Tp6JSbNR6ExN2YvM-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.998;entryY=0.442;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="vU2HOrqAtmkLahMUNuxy-2" target="lXu4Tp6JSbNR6ExN2YvM-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="2190" as="sourcePoint" />
-            <mxPoint x="740" y="2261" as="targetPoint" />
+            <mxPoint x="740" y="2261" as="sourcePoint" />
+            <mxPoint x="670" y="2190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lXu4Tp6JSbNR6ExN2YvM-12" value="consume&amp;nbsp;&lt;div style=&quot;font-size: 12px;&quot;&gt;storeMessageKafka&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=default;" parent="1" vertex="1" connectable="0">
@@ -226,20 +226,20 @@
             <mxPoint x="1000" y="2310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="O0EzowQMlojxF98ODf6e-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=-0.006;exitY=0.871;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vU2HOrqAtmkLahMUNuxy-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="2310" as="sourcePoint" />
+            <mxPoint x="640" y="2239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="O0EzowQMlojxF98ODf6e-14" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;b&gt;With Importer&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;dashed=1;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="628.34" y="2145" width="741.66" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="O0EzowQMlojxF98ODf6e-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.871;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.995;exitY=0.631;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lXu4Tp6JSbNR6ExN2YvM-10" target="vU2HOrqAtmkLahMUNuxy-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="2240" as="sourcePoint" />
-            <mxPoint x="1130" y="2310" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="O0EzowQMlojxF98ODf6e-15" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;b&gt;Without Importer&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;dashed=1;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="550" y="2350" width="1190" height="160" as="geometry" />
         </mxCell>
         <mxCell id="O0EzowQMlojxF98ODf6e-19" value="produce ack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="680" y="2240" width="90" height="30" as="geometry" />
+          <mxGeometry x="692.1" y="2240" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O0EzowQMlojxF98ODf6e-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.988;entryY=0.872;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lXu4Tp6JSbNR6ExN2YvM-1" target="vU2HOrqAtmkLahMUNuxy-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -256,7 +256,7 @@
         <mxCell id="3bJwH6zJLVk87BQePCyT-2" value="produce impexGenLoadStore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1155" y="2365" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kI4g1LaktF4DPV2rxxh5-1" value="getStore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kI4g1LaktF4DPV2rxxh5-1" value="getStore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="923.25" y="2437.15" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
