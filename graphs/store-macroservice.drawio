@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T08:24:32.183Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MDuTmr1aGhIwNUXbjjPf" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T08:26:46.463Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NeGhSiQ4zpF_nZBpC5JM" version="24.4.2" type="github">
   <diagram name="Page-1" id="m_Y108sSP7Lhg1sr7l5O">
-    <mxGraphModel dx="1434" dy="-229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,7 +140,7 @@
         <mxCell id="gKmI6yvuFESalika0xIr-20" value="Nextgen" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=40;strokeWidth=2;fillColor=#99CCFF;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="80" y="1880" width="1360" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="gKmI6yvuFESalika0xIr-21" value="&lt;span style=&quot;font-size: 18px; font-weight: 700; text-align: left;&quot;&gt;Store Backoffice (MVP1)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="gKmI6yvuFESalika0xIr-21" value="&lt;span style=&quot;font-size: 18px; font-weight: 700; text-align: left;&quot;&gt;Nextgen Backoffice (MVP1)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="316.75" y="2680" width="203.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gKmI6yvuFESalika0xIr-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.41;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="gKmI6yvuFESalika0xIr-21" target="lXu4Tp6JSbNR6ExN2YvM-10" edge="1">
