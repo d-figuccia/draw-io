@@ -1,5 +1,5 @@
 <div hidden>
-```plantuml
+```
 @startuml mvp1
 title MVP1
 
