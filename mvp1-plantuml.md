@@ -1,5 +1,4 @@
-<div hidden>
-```
+```plantuml
 @startuml mvp1
 title MVP1
 
@@ -62,6 +61,3 @@ AzureStorage --[#D0B6E1]> Hybris
 
 @enduml
 ```
-</div>
-
-![](mvp1.svg)
