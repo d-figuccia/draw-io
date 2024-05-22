@@ -1,5 +1,6 @@
+<div hidden>
 ```plantuml
-@startuml
+@startuml mvp1
 title MVP1
 
 legend right
@@ -61,3 +62,6 @@ AzureStorage --[#D0B6E1]> Hybris
 
 @enduml
 ```
+</div>
+
+![](mvp1.svg)
