@@ -22,8 +22,8 @@
         <mxCell id="1pyBuiSv32PL78OtD2eL-26" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" parent="1" vertex="1">
           <mxGeometry x="530.01" y="-788.5" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-27" value="Shopping List Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490.01" y="-728.5" width="140" height="30" as="geometry" />
+        <mxCell id="1pyBuiSv32PL78OtD2eL-27" value="Shopping List Microservices" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="475.01" y="-728.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-45" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" parent="1" vertex="1">
           <mxGeometry x="216.01" y="-671.5" width="50" height="48" as="geometry" />
