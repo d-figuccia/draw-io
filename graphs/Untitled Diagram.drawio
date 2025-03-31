@@ -16,8 +16,8 @@
         <mxCell id="AcxdMaKK0mU5kZiv2lnr-14" value="Cloud DRM&lt;br&gt;License / Key&lt;br&gt;Delivery Service&lt;br&gt;" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=img/lib/mscae/KeyVault.svg;spacingTop=3;" parent="1" vertex="1">
           <mxGeometry x="990" y="179" width="45" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-4" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50.629999999999995" y="-721.5" width="50" height="30" as="geometry" />
+        <mxCell id="1pyBuiSv32PL78OtD2eL-4" value="Wishlist/ShoppingList&lt;div&gt;API client&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5.6299999999999955" y="-726.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-8" value="SAP CC - Proxy pass" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170.01" y="-721.5" width="140" height="30" as="geometry" />
@@ -75,6 +75,21 @@
               <mxPoint x="560.01" y="-641.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1pyBuiSv32PL78OtD2eL-55" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-680" width="65.48" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1pyBuiSv32PL78OtD2eL-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="-760" as="sourcePoint" />
+            <mxPoint x="680" y="-680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="-760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1pyBuiSv32PL78OtD2eL-57" value="Consume new price event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-781.5" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
