@@ -79,7 +79,7 @@
         <mxCell id="1pyBuiSv32PL78OtD2eL-55" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
           <mxGeometry x="650" y="-680" width="65.48" height="48.5" as="geometry" />
         </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1pyBuiSv32PL78OtD2eL-56" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="-760" as="sourcePoint" />
             <mxPoint x="680" y="-680" as="targetPoint" />
