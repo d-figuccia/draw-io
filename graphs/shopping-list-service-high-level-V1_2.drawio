@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.9">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="1027" dy="1275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1454" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="475.01" y="-728.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-45" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" parent="1" vertex="1">
-          <mxGeometry x="216.01" y="-671.5" width="50" height="48" as="geometry" />
+          <mxGeometry x="215.01" y="-681.5" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-46" value="" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.proxy;" parent="1" vertex="1">
           <mxGeometry x="217.01" y="-781.5" width="46" height="46" as="geometry" />
@@ -53,19 +53,16 @@
           <mxGeometry x="190.01" y="-623.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-53" value="Send discounted price notification email&amp;nbsp;&lt;div&gt;(new API)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="338.01" y="-641.5" width="240" height="40" as="geometry" />
+          <mxGeometry x="310.01" y="-650" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.493;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF8000;" parent="1" edge="1">
+        <mxCell id="1pyBuiSv32PL78OtD2eL-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.493;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF8000;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="1pyBuiSv32PL78OtD2eL-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="559.03" y="-698.17" as="sourcePoint" />
-            <mxPoint x="270.01" y="-641.5" as="targetPoint" />
+            <mxPoint x="559.03" y="-710" as="sourcePoint" />
+            <mxPoint x="270.01" y="-653.33" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560.01" y="-641.5" />
+              <mxPoint x="560" y="-650" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-55" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" parent="1" vertex="1">
-          <mxGeometry x="650" y="-680" width="65.48" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-56" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF8000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -78,6 +75,9 @@
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-57" value="Consume new price event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="-781.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOZeo21h9JTCaLZLG0KJ-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-680" width="50" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
