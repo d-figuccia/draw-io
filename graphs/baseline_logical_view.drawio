@@ -5,7 +5,9 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NzAznAK7MmutMljHaKk1-1" value="SAP CC" style="swimlane;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="800" height="350" as="geometry" />
+          <mxGeometry x="20" y="20" width="800" height="350" as="geometry">
+            <mxRectangle x="20" y="20" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NzAznAK7MmutMljHaKk1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7EA6E0;" edge="1" parent="NzAznAK7MmutMljHaKk1-1" source="NzAznAK7MmutMljHaKk1-2" target="NzAznAK7MmutMljHaKk1-3">
           <mxGeometry relative="1" as="geometry" />
