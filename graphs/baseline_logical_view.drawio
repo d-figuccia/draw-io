@@ -99,7 +99,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NzAznAK7MmutMljHaKk1-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NzAznAK7MmutMljHaKk1-1" source="NzAznAK7MmutMljHaKk1-51" target="NzAznAK7MmutMljHaKk1-58">
+        <mxCell id="NzAznAK7MmutMljHaKk1-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6600CC;" edge="1" parent="NzAznAK7MmutMljHaKk1-1" source="NzAznAK7MmutMljHaKk1-51" target="NzAznAK7MmutMljHaKk1-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NzAznAK7MmutMljHaKk1-51" value="WishlistInDiscountEventListener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NzAznAK7MmutMljHaKk1-1">
