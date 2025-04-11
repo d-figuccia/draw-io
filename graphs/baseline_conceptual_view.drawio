@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OrzhCYIXaeTWt3cV4chA-1" value="System Context" style="swimlane;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="760" height="240" as="geometry">
+          <mxGeometry x="40" y="40" width="760" height="280" as="geometry">
             <mxRectangle x="40" y="40" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -35,6 +35,9 @@
         </mxCell>
         <mxCell id="OrzhCYIXaeTWt3cV4chA-9" value="Sends discounted&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;products emails&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrzhCYIXaeTWt3cV4chA-1">
           <mxGeometry x="480" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrzhCYIXaeTWt3cV4chA-11" value="Description: The Wishlist functionality is currently contained within SAP Commerce Cloud.&amp;nbsp;&lt;div&gt;FE clients interact with SAP Commerce Cloud via API calls.&amp;nbsp;&lt;div&gt;SAP Commerce Cloud sends email via an SMTP server.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OrzhCYIXaeTWt3cV4chA-1">
+          <mxGeometry x="40" y="220" width="680" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
