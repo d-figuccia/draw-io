@@ -1,9 +1,143 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.10">
   <diagram name="Page-1" id="DioN3vKvDdtRgjWv3006">
-    <mxGraphModel>
+    <mxGraphModel dx="1454" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="btTFtOFUsATWntGMi6Mw-1" value="System Context" style="swimlane;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="560" as="geometry">
+            <mxRectangle x="40" y="40" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-2" value="Spartacus SPA / Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="80" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-3" value="SAP Commerce Cloud&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Proxy pass&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="320" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-4" value="SMTP server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="560" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#D5E8D4;" edge="1" parent="btTFtOFUsATWntGMi6Mw-1" source="btTFtOFUsATWntGMi6Mw-2" target="btTFtOFUsATWntGMi6Mw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-7" value="Wishlist API v3 call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="201" y="87" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-8" value="Sends discounted&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;products emails&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="440" y="57" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-9" value="Description: The Wishlist functionality is currently contained within SAP Commerce Cloud.&amp;nbsp;&lt;div&gt;FE clients interact with SAP Commerce Cloud via API calls.&amp;nbsp;&lt;div&gt;SAP Commerce Cloud sends email via an SMTP server.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="45" y="500" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-11" value="Shopping List System" style="swimlane;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="20" y="240" width="720" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-10" value="Unified BFF&lt;div&gt;&lt;br&gt;&lt;div&gt;- Wishlist API v3&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="20" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-14" value="Shopping List Data&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;data:&lt;/div&gt;&lt;div&gt;shopping_list,&amp;nbsp;&lt;/div&gt;&lt;div&gt;shopping_list_entry,&lt;/div&gt;&lt;div&gt;shared_list&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="260" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-17" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_table;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="417" y="116" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-22" value="Shopping List Notification&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;data:&lt;/div&gt;&lt;div&gt;product_list_entry,&amp;nbsp;&lt;/div&gt;&lt;div&gt;product_last_price,&lt;/div&gt;&lt;div&gt;shared_token&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="480" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="640" y="116" width="30.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-24" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="433" y="176" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#C3ABD0;entryPerimeter=0;" edge="1" parent="btTFtOFUsATWntGMi6Mw-11" source="btTFtOFUsATWntGMi6Mw-14" target="btTFtOFUsATWntGMi6Mw-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#C3ABD0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="btTFtOFUsATWntGMi6Mw-11" source="btTFtOFUsATWntGMi6Mw-24" target="btTFtOFUsATWntGMi6Mw-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="230" as="sourcePoint" />
+            <mxPoint x="680" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#D5E8D4;" edge="1" parent="btTFtOFUsATWntGMi6Mw-11" source="btTFtOFUsATWntGMi6Mw-10" target="btTFtOFUsATWntGMi6Mw-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="176" as="sourcePoint" />
+            <mxPoint x="260" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-28" value="manage/retrieve&lt;div&gt;Shopping List data call&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="150" y="121" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-44" value="synch entry data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-11">
+          <mxGeometry x="408" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#D5E8D4;" edge="1" parent="btTFtOFUsATWntGMi6Mw-1" source="btTFtOFUsATWntGMi6Mw-3" target="btTFtOFUsATWntGMi6Mw-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="200" as="sourcePoint" />
+            <mxPoint x="250" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="200" />
+              <mxPoint x="100" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-13" value="forward: Wishlist API v3 call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="210" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-40" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="450" y="176.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#C3ABD0;entryPerimeter=0;" edge="1" parent="btTFtOFUsATWntGMi6Mw-1" target="btTFtOFUsATWntGMi6Mw-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="160" as="sourcePoint" />
+            <mxPoint x="455" y="221.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="375" y="199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#C3ABD0;exitPerimeter=0;" edge="1" parent="btTFtOFUsATWntGMi6Mw-1" source="btTFtOFUsATWntGMi6Mw-40" target="btTFtOFUsATWntGMi6Mw-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="198.5" as="sourcePoint" />
+            <mxPoint x="650" y="198.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-57" value="new discounted price" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+          <mxGeometry x="422.5" y="210" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-58" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#C3ABD0;" edge="1" parent="btTFtOFUsATWntGMi6Mw-1" source="btTFtOFUsATWntGMi6Mw-3" target="btTFtOFUsATWntGMi6Mw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="210" as="sourcePoint" />
+            <mxPoint x="760" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btTFtOFUsATWntGMi6Mw-59" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#C3ABD0;" edge="1" parent="btTFtOFUsATWntGMi6Mw-1" source="btTFtOFUsATWntGMi6Mw-22" target="btTFtOFUsATWntGMi6Mw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="198.5" as="sourcePoint" />
+            <mxPoint x="770" y="198.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="180" />
+              <mxPoint x="520" y="180" />
+              <mxPoint x="520" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
