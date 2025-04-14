@@ -138,7 +138,7 @@
         <mxCell id="btTFtOFUsATWntGMi6Mw-60" value="call new API to send discounted&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;products emails&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
           <mxGeometry x="601" y="180" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="btTFtOFUsATWntGMi6Mw-62" value="3rd parties" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
+        <mxCell id="btTFtOFUsATWntGMi6Mw-62" value="3rd parties" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-1">
           <mxGeometry x="305" y="520" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="btTFtOFUsATWntGMi6Mw-61" value="&lt;div&gt;Bloomreach&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;- Search API&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="btTFtOFUsATWntGMi6Mw-62">
