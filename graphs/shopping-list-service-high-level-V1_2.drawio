@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.12">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1454" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="1pyBuiSv32PL78OtD2eL-26" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" parent="1" vertex="1">
           <mxGeometry x="530.01" y="-788.5" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-27" value="Shopping List Microservices" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="475.01" y="-728.5" width="170" height="30" as="geometry" />
+        <mxCell id="1pyBuiSv32PL78OtD2eL-27" value="Shopping List System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490.01" y="-728.5" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1pyBuiSv32PL78OtD2eL-45" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" parent="1" vertex="1">
           <mxGeometry x="215.01" y="-681.5" width="50" height="48" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="1pyBuiSv32PL78OtD2eL-53" value="Send discounted price notification email&amp;nbsp;&lt;div&gt;(new API)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="310.01" y="-650" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1pyBuiSv32PL78OtD2eL-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.493;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF8000;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="1pyBuiSv32PL78OtD2eL-45">
+        <mxCell id="1pyBuiSv32PL78OtD2eL-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.493;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF8000;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="1pyBuiSv32PL78OtD2eL-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="559.03" y="-710" as="sourcePoint" />
             <mxPoint x="270.01" y="-653.33" as="targetPoint" />
@@ -76,7 +76,7 @@
         <mxCell id="1pyBuiSv32PL78OtD2eL-57" value="Consume new price event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="-781.5" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vOZeo21h9JTCaLZLG0KJ-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="1">
+        <mxCell id="vOZeo21h9JTCaLZLG0KJ-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" parent="1" vertex="1">
           <mxGeometry x="655" y="-680" width="50" height="45" as="geometry" />
         </mxCell>
       </root>
